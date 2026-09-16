@@ -1,13 +1,13 @@
-name: Update profile cards and snake
+name: Generate contribution snake
 
 on:
   schedule:
-    - cron: '23 3 * * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - '.github/workflows/snake.yml'
+      - ".github/workflows/snake.yml"
 
 permissions:
   contents: write
@@ -17,41 +17,21 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  snake:
+  generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     steps:
-      - uses: actions/checkout@v6
-
-      - name: Generate GitHub stats
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&bg_color=242630&title_color=e9aec5&text_color=e6e1e8&icon_color=e9aec5&border_color=55515f&border_radius=6&custom_title=ryxon%27s%20GitHub%20stats
-          path: dist/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
-
-      - name: Generate language card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&bg_color=242630&title_color=e9aec5&text_color=e6e1e8&border_color=55515f&border_radius=6&custom_title=Most%20used%20languages
-          path: dist/languages.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
-
-      - name: Generate pink snakes
+      - name: Generate light snake with green contributions
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=%23bc7093&color_dots=%23f5eee6,%23f3dce6,%23e9aec5,%23ce86a5,%239f5579
-            dist/snake-dark.svg?palette=github-dark&color_snake=%23e9aec5&color_dots=%2325222b,%23503a48,%2384546d,%23bc809a,%23f0c3d6
+            dist/snake.svg?palette=github-light&color_snake=%23e9aec5&color_dots=%23ebedf0,%239be9a8,%2340c463,%2330a14e,%23216e39
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish generated images to output branch
+      - name: Publish snake
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY: ${{ github.repository }}
@@ -60,8 +40,8 @@ jobs:
           git init -b output
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add snake.svg snake-dark.svg stats.svg languages.svg
-          git commit -m "Update profile cards and snakes"
+          git add snake.svg
+          git commit -m "Update contribution snake"
           git remote add origin "https://github.com/${REPOSITORY}.git"
           AUTH=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
           git -c "http.extraheader=AUTHORIZATION: basic $AUTH" push --force origin output
