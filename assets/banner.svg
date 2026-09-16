@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">ryxon</title>
+  <desc id="desc">A cream and pink banner with a black cat wearing a bow. A little code, a little chaos.</desc>
+  <rect width="1200" height="360" rx="24" fill="#17161b"/>
+  <rect x="18" y="18" width="1164" height="324" rx="16" fill="none" stroke="#454047"/>
+  <circle cx="979" cy="173" r="121" fill="#f5eee6"/>
+  <path d="M886 272 Q864 208 886 158 L889 85 Q894 70 932 132 Q963 120 995 134 Q1040 83 1045 100 L1045 168 Q1081 241 1036 283 Q959 313 886 272Z" fill="#101014"/>
+  <path d="M899 112 L903 153 L922 140Z M1034 123 L1013 147 L1035 163Z" fill="#363037"/>
+  <ellipse cx="922" cy="197" rx="22" ry="25" fill="#a9b596"/>
+  <ellipse cx="1008" cy="197" rx="22" ry="25" fill="#a9b596"/>
+  <ellipse cx="925" cy="197" rx="13" ry="22" fill="#101014"/>
+  <ellipse cx="1005" cy="197" rx="13" ry="22" fill="#101014"/>
+  <circle cx="916" cy="187" r="5" fill="#f5eee6"/>
+  <circle cx="1001" cy="187" r="5" fill="#f5eee6"/>
+  <path d="M958 227 Q965 223 972 227 L965 233Z" fill="#71616c"/>
+  <g stroke="#706773" stroke-width="2" stroke-linecap="round">
+    <path d="M909 230 L856 220 M907 240 L852 242 M1023 230 L1075 221 M1026 241 L1080 245"/>
+  </g>
+  <g transform="translate(1019 148) rotate(20)">
+    <path d="M0 0 Q-31 -28 -32 -9 Q-35 14 0 3 Q28 25 30 5 Q33 -18 0 0" fill="#e9aec5" stroke="#bc809a" stroke-width="2"/>
+    <ellipse rx="7" ry="8" fill="#f5d1e0"/>
+  </g>
+  <text x="83" y="96" fill="#e9aec5" font-family="monospace" font-size="16" letter-spacing="5">WELCOME TO MY LITTLE CORNER</text>
+  <text x="77" y="212" fill="#f5eee6" font-family="Georgia,serif" font-size="112" font-weight="bold">ryxon<tspan fill="#e9aec5">.</tspan></text>
+  <text x="83" y="269" fill="#bdb5bf" font-family="monospace" font-size="21">a little code, a little chaos.</text>
+  <g fill="#e9aec5"><path d="M771 93 l4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4Z"/><path d="M1110 273 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3Z"/></g>
+</svg>
