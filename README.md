@@ -21,7 +21,4 @@ I'm currently working on my skills in Python and I'll hopefully learn C++ in the
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=ryxonpy&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
----
-[![](https://komarev.com/ghpvc/?username=ryxonpy&icon=1&color=6)](https://visitcount.itsvg.in)
-
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
