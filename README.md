@@ -1,39 +1,25 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="ryxon — a little code, a little chaos. Black cat with a pink bow." />
+### ryxon
+<sub>HTML · CSS · JavaScript · Python</sub>
 
-<br />
+<br /><br />
 
-### hey, i'm ryxon 🐈‍⬛
+<img height="155" src="https://raw.githubusercontent.com/ryxonpy/ryxonpy/output/stats.svg" alt="ryxon's GitHub stats" />
+<img height="155" src="https://raw.githubusercontent.com/ryxonpy/ryxonpy/output/languages.svg" alt="Most used languages in my public repositories" />
 
-building things with code & a little curiosity.
+<br /><br />
 
-<br />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" height="36" width="36" alt="HTML" />&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" height="36" width="36" alt="CSS" />&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="36" width="36" alt="JavaScript" />&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="36" width="36" alt="Python" />
 
-<img src="https://img.shields.io/badge/HTML-f0ddd9?style=for-the-badge&amp;logo=html5&amp;logoColor=211e24" alt="HTML" />
-<img src="https://img.shields.io/badge/CSS-e9aec5?style=for-the-badge&amp;logo=css&amp;logoColor=211e24" alt="CSS" />
-<img src="https://img.shields.io/badge/JavaScript-f5eee6?style=for-the-badge&amp;logo=javascript&amp;logoColor=211e24" alt="JavaScript" />
-<img src="https://img.shields.io/badge/Python-b8c2a3?style=for-the-badge&amp;logo=python&amp;logoColor=211e24" alt="Python" />
-
-<br />
-<br />
-
-`html + css` · `javascript` · `python`
-
-<br />
-
-### a little snack for the snake
+<br /><br />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryxonpy/ryxonpy/output/snake-dark.svg" />
-  <img alt="Animated snake eating my GitHub contributions" src="https://raw.githubusercontent.com/ryxonpy/ryxonpy/output/snake.svg" width="100%" />
+  <img src="https://raw.githubusercontent.com/ryxonpy/ryxonpy/output/snake.svg" alt="My contribution snake" width="95%" />
 </picture>
-
-<br />
-<br />
-
-[browse my projects ↗](https://github.com/ryxonpy?tab=repositories)
-
-<sub>curiosity didn't kill this cat. it taught it to code.</sub>
 
 </div>
